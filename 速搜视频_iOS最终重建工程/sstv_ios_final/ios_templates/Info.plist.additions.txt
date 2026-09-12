@@ -1,0 +1,13 @@
+将以下键合并到 ios/Runner/Info.plist（bootstrap_macos.command 会自动处理主要项）：
+
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+  <key>NSAllowsLocalNetworking</key>
+  <true/>
+</dict>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>用于选择或保存视频相关内容。</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>用于将内容保存到照片图库。</string>
