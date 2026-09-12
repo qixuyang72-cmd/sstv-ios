@@ -1,0 +1,16 @@
+原 APK：速搜视频_1.4.1.apk
+Android 包名：com.sjz.ss
+框架：Flutter
+核心 Android 二进制：libapp.so / libflutter.so
+
+从二进制可确认的部分 URL：
+- https://suggest.video.iqiyi.com/?if=mobile&key=
+- https://node.video.qq.com/x/api/hot_search?type=json
+- https://frodo.douban.com/api/v2/subject_collection/movie_real_time_hotest/items
+- https://frodo.douban.com/api/v2/subject_collection/tv_real_time_hotest/items
+- https://frodo.douban.com/api/v2/subject_collection/show_hot/items
+- https://movie.douban.com/j/new_search_subjects
+- http://43.248.128.251:2233/api.php/app/weekday?text=
+
+原 APK 还包含 WebView、本地存储、微信/QQ 相关字符串、m3u8/mp4 等媒体处理痕迹。
+但仅凭 APK 无法可靠恢复服务端鉴权、私有接口和完整 Dart 源码。
